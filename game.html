@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>pictionary</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/functions.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+<body onload="loadArrays()">
+	<div class="menu">
+		<div class="card">
+			<h1 style="font-size: 4em;">Lado 1</h1>
+			<h3 id="acc1" style="background: orange;">Acción</h3>
+			<h3 id="obj1" style="background: yellow; color: black;">Objeto</h3>
+			<h3 id="pla1" style="background: blue;">Persona, Lugar, Animal</h3>
+			<h3 id="dif1" style="background: green;">Difícil</h3>
+			<h3 id="esp1" style="background: red;">Especial</h3>
+		</div>
+		<div class="card">
+			<h1 style="font-size: 4em;">Lado 2</h1>
+			<h3 id="acc2" style="background: orange;">Acción</h3>
+			<h3 id="obj2" style="background: yellow; color: black;">Objeto</h3>
+			<h3 id="pla2" style="background: blue;">Persona, Lugar, Animal</h3>
+			<h3 id="dif2" style="background: green;">Difícil</h3>
+			<h3 id="esp2" style="background: red;">Especial</h3>
+		</div>
+		<button class="btnMix" onclick="suffleCard()">Nueva carta</button>
+	</div>
+</body>
+</html>
